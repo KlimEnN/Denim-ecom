@@ -152,16 +152,25 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 70px;
 }
+
+.cart {
+  margin-left: 35px;
+} 
 
 .product-list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  
 }
 
 .category-list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  
 }
 
 .category-item img{
@@ -171,6 +180,7 @@ h1 {
 
 .news-item {
   display: flex;
+ 
 }
 
 .news-card {
@@ -241,7 +251,7 @@ h1 {
   display: flex;
   width: 75px;
   height: 17px;
-  margin: 0 auto;
+  margin: auto;
   margin-bottom: 35px;
 }
 
@@ -274,6 +284,7 @@ h1 {
   display: flex;
   justify-content: center;
   max-width: 220px;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 
